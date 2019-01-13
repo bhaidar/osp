@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.4rem;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img, video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+p, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #005384;
+    font-size: 1.811rem;
+    line-height: 2.2rem;
+}
+
+h3 {
+    color: #888;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+}
+
+h4 {
+    color: #999;
+    font-size: 1.25rem;
+    line-height: 1.4rem;
+}
+
+p {
+    color: #4e5a63;
+    line-height: 1.5rem;
+}
+
+a {
+    color: #888;
+    text-decoration: none;
+}
+
+/* COMMON CLASSES */
+.primary-text {
+    color: #01B8AC;
+}
+
+.primary-background {
+    background: #01B8AC;
+}
+
+/* MAIN HEADER */
+#main-header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+
+#main-header p.secondary-text {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    color: #005384;
+}
+
+#main-header a.grab-license {
+    display: inline-block;
+    background: #005384;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#main-header ul {
+    list-style: none;
+}
+
+#main-header li {
+    display: inline;
+    padding-right: 1.5rem;
+}
+
+#main-header li a {
+    text-transform: capitalize;
+    font-size: 0.85rem;
+}
+
+/* FEATURES */
+#features .row:nth-child(even) {
+    background: #F1F0EF;
+}
+
+/* FOOTER */
+#main-footer {
+    background: #333;
+    color: #888;
+    font-size: 1em;
+    padding: 0;
+}
+
+#main-footer ul {
+    list-style: none;
+}
+
+#main-footer li {
+    display: inline;
+    padding-right: 10px;
+}
+
+#main-footer .fa {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#main-footer .fa:hover {
+    color: #fff;
+}
