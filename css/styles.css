@@ -45,6 +45,32 @@ a {
     text-decoration: none;
 }
 
+.icon {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    border-radius: 40px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .icon:hover {
+    background: #61D2B4;
+} */
+
+.icon i {
+    font-size: 36px;
+    line-height: 80px;
+    color: #61D2B4;
+}
+
+/* .icon:hover i {
+    color: #fff;
+} */
+
 /* COMMON CLASSES */
 .primary-text {
     color: #01B8AC;
