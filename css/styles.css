@@ -141,6 +141,10 @@ a:hover {
     line-height: 3.5rem;
 } */
 
+#main-header {
+    border-bottom: 1px solid rgba(0, 163, 153, 0.2);
+}
+
 #main-header #logo {
     position: relative;
     float: left;
@@ -174,9 +178,14 @@ a:hover {
 
 #main-header a.grab-license {
     display: inline-block;
-    background: #005384;
+    border-radius: 0.5rem;
+    background: rgb(0, 163, 153);
     color: #fff;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 0;
 }
 
 #main-header ul {
