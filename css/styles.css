@@ -141,6 +141,31 @@ a:hover {
     line-height: 3.5rem;
 } */
 
+#main-header #logo {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+}
+
+#main-header #logo a {
+    height: 70px;
+    line-height: 70px;
+    margin: 0 auto;
+}
+  
+#main-header #logo a svg {
+    width: 156px;
+    vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+    #main-header #logo a {
+        margin: 0;  
+    }
+}
+
 #main-header p.secondary-text {
     font-size: 2rem;
     line-height: 1.85rem;
