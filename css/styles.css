@@ -66,19 +66,19 @@ h1 {
 h2 {
     color: #005384;
     font-size: 2.1875rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
 }
 
 h3 {
     color: #005384;
     font-size: 1.875rem;
-    line-height: 1.6875rem;
+    line-height: 1.9rem;
 }
 
 h4 {
     color: #005384;
     font-size: 1.5125rem;
-    line-height: 1.4375rem;
+    line-height: 1.6rem;
     letter-spacing: -.05px;
 }
 
@@ -143,7 +143,7 @@ a:hover {
 
 #main-header p.secondary-text {
     font-size: 2rem;
-    line-height: 1.75rem;
+    line-height: 1.85rem;
     color: #005384;
 }
 
