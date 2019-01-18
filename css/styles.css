@@ -65,19 +65,19 @@ h1 {
 
 h2 {
     color: #005384;
-    font-size: 2.1875rem;
-    line-height: 2.2rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
 }
 
 h3 {
     color: #005384;
-    font-size: 1.875rem;
-    line-height: 1.9rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
 }
 
 h4 {
     color: #005384;
-    font-size: 1.5125rem;
+    font-size: 1.1rem;
     line-height: 1.6rem;
     letter-spacing: -.05px;
 }
@@ -166,7 +166,7 @@ a:hover {
 }
 
 #main-header p.secondary-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.85rem;
     color: #005384;
 }
@@ -203,10 +203,6 @@ a:hover {
 }
 
 /* TRUSTED COMPANIES */
-#trusted-companies {
-    
-}
-
 #trusted-companies .vendor-icon {
     display: inline-block;
     background: url(icons/vendors_sprite.png) no-repeat;
