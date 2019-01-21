@@ -82,7 +82,7 @@ h4 {
     letter-spacing: -.05px;
 }
 
-h3.highlight {
+.highlight {
     color: rgba(78,90,99,.5);
     font-weight: 600;
 }
@@ -197,70 +197,148 @@ a:hover {
     font-size: 0.85rem;
 }
 
+#open-source-getting-started {
+    background: rgba(0,83,132,.08);
+}
+
+#open-source-getting-started .glow {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 /* FEATURES */
 #features-content:nth-child(even) {
     background: #F1F0EF;
 }
 
+#features-content.last {
+    border-bottom: 1px solid rgba(0, 163, 153, 0.6);
+}
+
 /* TRUSTED COMPANIES */
-#trusted-companies .vendor-icon {
+#trusted-companies {
+    border-bottom: 1px solid rgba(0, 163, 153, 0.6);
+}
+.vendor-icon {
     display: inline-block;
     background: url(icons/vendors_sprite.png) no-repeat;
 }
 
-#trusted-companies .vendor-icon.vendor-salesforce-color {
+.vendor-icon.vendor-salesforce-color {
     background: url(icons/salesforce-logo.svg) no-repeat;
     background-size: contain;
     width: 88px;
     height: 63px;
 }
 
-#trusted-companies.vendor-icon.vendor-mastercard-color {
+.vendor-icon.vendor-mastercard-color {
     background: url(icons/mastercard-logo.svg) no-repeat;
     background-size: contain;
     width: 80px;
     height: 64px;
 }
 
-#trusted-companies .vendor-icon.vendor-sap-color {
+.vendor-icon.vendor-sap-color {
     background: url(icons/sap-logo.svg) no-repeat;
     background-size: contain;
     width: 79px;
     height: 39px;
 }
 
-#trusted-companies .vendor-icon.vendor-sony-color {
+.vendor-icon.vendor-sony-color {
     background: url(icons/sony-logo.svg) no-repeat;
     background-size: contain;
     width: 117px;
     height: 21px;
 }
 
-#trusted-companies .vendor-icon.vendor-intuit-color {
+.vendor-icon.vendor-intuit-color {
     background: url(icons/intuit-logo.svg) no-repeat;
     background-size: contain;
     width: 94px;
     height: 28px;
 }
 
-#trusted-companies .vendor-icon.vendor-dowjones-color {
+.vendor-icon.vendor-dowjones-color {
     background: url(icons/dow-jones-logo.svg) no-repeat;
     background-size: contain;
     width: 54px;
     height: 54px;
 }
 
-#trusted-companies .vendor-icon.vendor-adidas-color {
+.vendor-icon.vendor-adidas-color {
     background: url(icons/adidas-logo.svg) no-repeat;
     background-size: contain;
     width: 81px;
     height: 54px;
 }
 
+.vendor-icon.vendor-github-color {
+    background: url(icons/github-logo.svg) no-repeat;
+    background-size: contain;
+    width: 111px;
+    height: 30px;
+}
+
+.vendor-icon.vendor-jenkins-color {
+    background: url(icons/jenkins-logo.svg) no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 40px;
+}
+
+.vendor-icon.vendor-travis-color {
+    background: url(icons/travis-logo.svg) no-repeat;
+    background-size: contain;
+    width: 129px;
+    height: 40px;
+}
+
+.vendor-icon.vendor-appveyor-color {
+    background: url(icons/appveyor-logo.svg) no-repeat;
+    background-size: contain;
+    width: 164px;
+    height: 30px;
+}
+
+.vendor-icon.vendor-circleci-color {
+    background: url(icons/circleci-logo.svg) no-repeat;
+    background-size: contain;
+    width: 143px;
+    height: 30px;
+}
+
+.vendor-icon.vendor-teamcity-color {
+    background: url(icons/teamcity-logo.svg) no-repeat;
+    background-size: contain;
+    width: 166px;
+    height: 30px;
+}
+
+.vendor-icon.vendor-githube-color {
+    background: url(icons/github-enterprise-logo.svg) no-repeat;
+    background-size: contain;
+    width: 210px;
+    height: 30px;
+}
+
+.vendor-icon.vendor-semaphore-color {
+    background: url(icons/semaphore-logo.svg) no-repeat;
+    background-size: contain;
+    width: 157px;
+    height: 30px;
+}
+
+.vendor-icon.vendor-visualstudio-color {
+    background: url(icons/visual-studio-logo.svg) no-repeat;
+    background-size: contain;
+    width: 173px;
+    height: 30px;
+}
+
 /* CAROUSEL */
 #testimonials {
     background: rgba(0,83,132,.08);
-    padding: 20px;
 }
 
 #testimonials .slide-item p {
